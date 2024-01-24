@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 
 <html>
-
+  <!-- you can add css/javascript files here later?-->
   <head>
     <title>PUI-NOTE Exercise 1</title>
+
+    <!-- Our application uses the fonts "Roboto" and "Roboto Mono". These are
+      not installed on every computer, so we link to them (from Google Fonts)
+      in the section below. -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100;1,200&display=swap"
+        rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+      
+      <link rel="stylesheet" href="css/style.css">
+ 
   </head>
 
-
+  <!-- 
+    the content of the webpage from here on down
+    for css which goes first: id >> class >> tag 
+  -->
   <body>
-
+    <div class="note-card"> 
+      <img class="thumbnail" src ="assets/warhol-zebra.png"/>
+      <h1>A Placeholder Title Goes Here</h1>
+      <p>
+        Here is some placeholder body text. And here is some more...
+        and wait, here is even more! look at all this text! It just
+        keeps going and going and going.
+      </p>
+      <button id="button">X</button>
+    </div>
   </body>
   
 </html>
