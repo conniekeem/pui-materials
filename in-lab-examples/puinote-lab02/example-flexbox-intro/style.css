@@ -2,6 +2,28 @@ body {
   font-family: sans-serif;
 }
 
+.big_container {
+  width:500px;
+  height:500px;
+  background-color: lightgray;
+
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  align-items:flex-end;
+}
+
+.small-container {
+  display:flex;
+  flex-direction: column-reverse;
+}
+
+.big_container div{
+  width: 100px;
+  height:100px;
+  background-color: steelblue;
+}
+
 .row {
   width: 500px;
   background-color: lightgray;
