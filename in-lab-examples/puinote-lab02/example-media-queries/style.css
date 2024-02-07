@@ -17,7 +17,9 @@ body {
 }
 
 .column.responsive {
+  width: 100%;
 }
 
 .container.responsive {
+  flex-wrap:wrap;
 }
