@@ -34,4 +34,4 @@ notecard.element = document.querySelector('#notecard-one');
 
 const btnSubmit = document.querySelector('#btn-submit');
 
-btnSubmit.onclick = submitNote
+btnSubmit.onclick = submitNote;
