@@ -1,6 +1,6 @@
 class Notecard{
     constructor(imageURL, title, body) {
-        this.noteImage = imageURL;
+        this.noteImageURL = imageURL;
         this.noteTitle = title;
         this.noteBody = body;
 
@@ -40,11 +40,11 @@ function createElement(notecard){
 function updateElement(notecard) {
     //updating each element of the notecards
     const noteImageElement = notecard.element.querySelector('.notecard-thumbnail');
-    const noteTitleElement = notecard.element.querySelector('.notecard-title');
-    const noteBodyElement = notecard.element.querySelector('.notecard-body');
+    const noteTitleElement = notecard.element.querySelector('.note-title');
+    const noteBodyElement = notecard.element.querySelector('.note-body');
 
     noteImageElement.src = notecard.noteImageURL;
-    noteTitleElement.innertext = notecard.noteTitle;
+    noteTitleElement.innerText = notecard.noteTitle;
     noteBodyElement.innerText = notecard.noteBody;
 }
 
