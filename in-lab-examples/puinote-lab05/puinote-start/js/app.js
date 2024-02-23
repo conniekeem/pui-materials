@@ -69,5 +69,4 @@ const notecardTwo = addNewNote(
 //need to iterate all the objects in the set
 for (const notecard of notecardSet) {
     createElement(notecard);
-
 }
